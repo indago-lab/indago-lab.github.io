@@ -14,9 +14,9 @@ Indago contains several modern methods for real fitness function optimization ov
 Indago is developed for in-house research and teaching purposes and is not officially supported in any way, comes with no guarantees whatsoever and is not properly documented. However, we use it regulary and it seems to be working fine. Hopefully you will find it useful as well.
 
 ## Installation
-```
-pip install indago
-```
+
+You can install Indago via pip: `pip install indago`
+
 
 ## Documentation
 
