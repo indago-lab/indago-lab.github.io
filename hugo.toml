@@ -1,0 +1,3 @@
+theme = "LoveIt"
+baseURL = "https://<your-github-username>.github.io/"
+publishDir = "public"
