@@ -1,6 +1,6 @@
 ---
 title: "Luka Lanča"
-role: "Postfoc"
+role: "Postdoc"
 email: "luka.lanca@uniri.hr"
 featuredimage: "Ante-Sikirica.jpg"
 draft: false
