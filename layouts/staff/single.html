@@ -24,8 +24,8 @@
 
         <div class="wrapper" style="display: grid; box-sizing: border-box; height: 50%;">
 
-        <div>
-            <div style="width: 50%; float:left;">
+        <div style="  display: flex; flex-wrap: wrap; gap: 20px;">
+            <div style="float:left; flex: 1 1 45%; min-width: 300px;">
             {{- /* Left content in here: Featured image */ -}}
                 <div class="w-20 h-20 overflow-hidden rounded-full mx-auto">
                     <a href="{{ $.RelPermalink }}">
@@ -36,7 +36,7 @@
                     </a>
                 </div>
             </div>
-            <div style="width: 50%; float:right">
+            <div style="float:right; flex: 1 1 45%; min-width: 300px;">
             {{- /*Right content in there */ -}}
                 {{- /* Title */ -}}
                 <h1 class="single-title animate__animated animate__pulse animate__faster">{{- .Title -}}</h1>
