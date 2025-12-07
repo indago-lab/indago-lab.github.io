@@ -71,9 +71,9 @@ theme = "LoveIt"
   # Author config
   # 作者配置
   [params.author]
-    name = "xxxx"
+    name = "IndagoLab"
     email = ""
-    link = ""
+    link = "https://indago-lab.github.io"
 
   # Header config
   # 页面头部导航栏配置
@@ -171,6 +171,7 @@ theme = "LoveIt"
       # 主页每页显示文章数量
       paginate = 6
 
-    [params.home.courses]
-      enable = false
+  [params.page.share]
+  enable = false
+
 
