@@ -3,7 +3,7 @@
     {{- $profile := .Site.Params.home.profile -}}
     {{- $courses := .Site.Params.home.courses -}}
 
-    <div class="page home"{{ if ne $courses.enable false }} data-home="posts"{{ end }}>
+    <div class="page home" data-home="posts">
         <h2>Courses</h2></br>
 
         {{- /* Content */ -}}
