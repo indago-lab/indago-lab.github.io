@@ -14,12 +14,19 @@
         {{- $image = .RelPermalink -}}
     {{- end -}}
     {{- with $image -}}
+        <!--
         <div class="w-40 h-20 overflow-hidden rounded-full mx-auto">
             <a href="{{ $.RelPermalink }}">
                 <img src="{{ $image }}"
                     alt="{{ $.Title }}"
                     class="w-full h-full object-cover object-center block"
                     style="width: 600px; height: 200px; object-fit: cover;">
+            </a>
+        </div>
+        -->
+        <div class="featured-image-preview">
+            <a href="{{ $.RelPermalink }}">
+                {{- dict "Src" . "Title" $.Description "Resources" $.Resources | partial "plugin/img.html" -}}
             </a>
         </div>
     {{- end -}}

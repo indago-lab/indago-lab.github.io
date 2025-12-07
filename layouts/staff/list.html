@@ -3,9 +3,16 @@
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
 
-    <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}
-    style="  display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;">
+    <div class="page home" data-home="posts">
+<!--         style="  display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;"> -->
         <h2>Staff members</h2></br>
+
+         {{- with .Site.Params.customCSS -}}
+            {{- range . -}}
+                {{- $style := resources.Get . | minify | fingerprint -}}
+                <link rel="stylesheet" href="{{ $style.Permalink }}">
+            {{- end -}}
+        {{- end -}}
 
         {{- /* Content */ -}}
         {{- if .Content -}}
@@ -28,6 +35,7 @@
             "PhD Student"         6
         }}
 
+        <div class="post-grid">
         {{ range sort .Pages ".Params.role" "desc" }}
             {{ $role := .Params.role }}
             {{ $order := index $roleOrder $role | default 999 }}
@@ -35,6 +43,7 @@
             {{/* Build a slice of pages with their order embedded */}}
             {{- .Render "staff_item" -}}
         {{ end }}
+        </div>
     </div>
 
 {{- end -}}
