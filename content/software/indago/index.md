@@ -5,6 +5,7 @@ featuredimage: "optimization.jpg"
 toc: true # Show table of contents
 start: 2021
 end: 2022
+description: "Python 3 module for numerical optimization"
 ---
 
 Indago is a Python 3 module for numerical optimization.

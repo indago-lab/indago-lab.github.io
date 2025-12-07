@@ -38,18 +38,7 @@
 
     {{- /* Meta */ -}}
     <div class="post-meta">
-        {{ .Params.level }} degree in
-        {{ $study := .Params.study }}
-        {{ if eq (printf "%T" $study) "string" }}
-            {{/* Single study */}}
-            {{ $study }}
-        {{ else }}
-            {{/* $study is a list */}}
-            {{ range $i, $s := $study }}
-                {{ if $i }}, {{ end }}
-                {{ $s }}
-            {{ end }}
-        {{ end }}
+        {{ .Params.description }}
     </div>
 
 
