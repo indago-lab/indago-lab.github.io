@@ -1,0 +1,40 @@
+{{- define "content" -}}
+    {{- $params := .Scratch.Get "params" -}}
+    {{- $profile := .Site.Params.home.profile -}}
+    {{- $posts := .Site.Params.home.posts -}}
+
+    <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}
+    style="  display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;">
+        <h2>Staff members</h2></br>
+
+        {{- /* Content */ -}}
+        {{- if .Content -}}
+            <div class="single">
+                <div class="content" id="content">
+                    {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                </div>
+            </div>
+        {{- end -}}
+
+        {{- /* Staff list */ -}}
+        {{- $pages := where .Site.RegularPages "Type" "staff" -}}
+
+        {{ $roleOrder := dict
+            "Professor"           1
+            "Associate Professor" 2
+            "Assistant Professor" 3
+            "Postdoc"             4
+            "Researcher"          5
+            "PhD Student"         6
+        }}
+
+        {{ range sort .Pages ".Params.role" "desc" }}
+            {{ $role := .Params.role }}
+            {{ $order := index $roleOrder $role | default 999 }}
+
+            {{/* Build a slice of pages with their order embedded */}}
+            {{- .Render "staff_item" -}}
+        {{ end }}
+    </div>
+
+{{- end -}}

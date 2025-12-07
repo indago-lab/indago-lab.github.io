@@ -1,0 +1,112 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+    {{- $params := .Scratch.Get "params" -}}
+
+    {{- $toc := $params.toc -}}
+    {{- if eq $toc true -}}
+        {{- $toc = .Site.Params.page.toc | default dict -}}
+    {{- else if eq $toc false -}}
+        {{- $toc = dict "enable" false -}}
+    {{- end -}}
+
+    {{- /* Auto TOC */ -}}
+    {{- if ne $toc.enable false -}}
+        <div class="toc" id="toc-auto">
+            <h2 class="toc-title">{{ T "contents" }}</h2>
+            <div class="toc-content{{ if eq $toc.auto false }} always-active{{ end }}" id="toc-content-auto"></div>
+        </div>
+    {{- end -}}
+
+
+    <div class="page single special">
+
+
+        <div class="wrapper" style="display: grid; box-sizing: border-box; height: 50%;">
+
+        <div style="padding-top:100px;">
+            <div style="width: 50%; float:left;">
+            {{- /* Left content in here: Featured image */ -}}
+                <div class="w-20 h-20 overflow-hidden rounded-full mx-auto">
+                    <a href="{{ $.RelPermalink }}">
+                        <img src="{{ $params.featuredimage }}"
+                            alt="{{ $.Title }}"
+                            class="w-full h-full object-cover object-center block"
+                            style="width: 300px; height: 300px; object-fit: cover;">
+                    </a>
+                </div>
+            </div>
+            <div style="width: 50%; float:right">
+            {{- /*Right content in there */ -}}
+                {{- /* Title */ -}}
+                <h1 class="single-title animate__animated animate__pulse animate__faster">{{- .Title -}}</h1>
+                {{- /* Subtitle */ -}}
+                {{- with $params.role -}}<h2 class="single-subtitle">{{ . }}</h2>{{- end -}}
+                {{ if $params.email }}
+                <p align="right">
+                    {{ $kind := printf "%T" $params.email }}  <!-- detect type -->
+                    {{ if eq $kind "string" }}
+                            <i class="fa fa-envelope" style="font-size:18px;color:gray"></i> {{ $params.email }}</br>
+                    {{ else if eq $kind "[]string" }}
+                        {{ range $params.email }}
+                            <i class="fa fa-envelope" style="font-size:18px;color:gray"></i> {{ . }}</br>
+                        {{ end }}
+                    {{ end }}
+                </p>
+                {{ end }}
+            </div>
+        </div>
+
+        {{- /* Static TOC */ -}}
+        {{- if ne $toc.enable false -}}
+            <div class="details toc" id="toc-static"  data-kept="{{ if $toc.keepStatic }}true{{ end }}">
+                <div class="details-summary toc-title">
+                    <span>{{ T "contents" }}</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static">
+                    {{- dict "Content" .TableOfContents "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                </div>
+            </div>
+        {{- end -}}
+
+        {{- /* Content */ -}}
+        <div class="content" id="content" style="height: fit-content; display: inline-block;">
+            {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+        </div>
+
+<!--        <div style="height: fit-content; display: inline-block;">
+            {{ $dir := .File.Dir }}
+            {{ $person := replaceRE "/$" "" $dir }}
+            <h4>Posts related to {{ .Title }}:</h4>
+                <ul>
+                {{ range where .Site.RegularPages "Section" "posts" }}
+
+                    {{ $links := .Params.linkto }}
+                    {{ $match := false }}
+
+                    {{ if $links }}
+                        {{ $kind := printf "%T" $links }}
+                        {{ if eq $kind "string" }}
+                            {{ if eq $links $person }}
+                                {{ $match = true }}
+                            {{ end }}
+                        {{ else if eq $kind "[]string" }}
+                            {{ if in $links $person }}
+                                {{ $match = true }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $match }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> — {{ .Date.Format "2006-01-02" }}</li>
+                    {{ end }}
+                {{ end }}
+                </ul>
+        </div>-->
+
+        {{- /* Comment */ -}}
+        {{- partial "comment.html" . -}}
+
+    </div>
+
+{{- end -}}

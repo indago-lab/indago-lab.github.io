@@ -1,0 +1,31 @@
+{{- $params := .Params | merge .Site.Params.page -}}
+
+<!-- <div class="w-30 h-30 overflow-hidden rounded-full mx-auto"> -->
+<article class="single summary" style="width:250px; max-width=250px;">
+
+    {{- /* Featured image */ -}}
+    {{ $dir := replaceRE "^staff/" "" .File.Dir }}
+    {{ $imageName := $params.featuredimagepreview | default $params.featuredimage }}
+    {{ $image := printf "%s%s" $dir $imageName }}
+
+    {{- with $image -}}
+        <div class="w-20 h-20 overflow-hidden rounded-full mx-auto">
+            <a href="{{ $.RelPermalink }}">
+                <img src="{{ $image }}"
+                    alt="{{ $.Title }}"
+                    class="w-full h-full object-cover object-center block"
+                    style="width: 200px; height: 200px; object-fit: cover;">
+            </a>
+        </div>
+    {{- end -}}
+
+    {{- /* Title */ -}}
+    <h1 class="single-title" itemprop="name headline">
+        <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+    </h1>
+
+    {{- /* Meta */ -}}
+    <div class="post-meta">{{ .Params.role }}</div>
+
+</article>
+<!--     </div> -->

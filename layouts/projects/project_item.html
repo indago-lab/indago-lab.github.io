@@ -1,0 +1,63 @@
+{{- $params := .Params | merge .Site.Params.page -}}
+
+<article class="single summary" itemscope itemtype="http://schema.org/Article">
+    {{- /* Featured image */ -}}
+    {{ $dir := .File.Dir }}
+    {{ $clean := replaceRE "^projects/" "" $dir }}
+    {{ $imageName := $params.featuredimagepreview | default $params.featuredimage }}
+    {{ $image := printf "%s%s" $clean $imageName }}
+
+    {{- with .Resources.GetMatch "featured-image" -}}
+        {{- $image = .RelPermalink -}}
+    {{- end -}}
+    {{- with .Resources.GetMatch "featured-image-preview" -}}
+        {{- $image = .RelPermalink -}}
+    {{- end -}}
+    {{- with $image -}}
+        <div class="w-40 h-20 overflow-hidden rounded-full mx-auto">
+            <a href="{{ $.RelPermalink }}">
+                <img src="{{ $image }}"
+                    alt="{{ $.Title }}"
+                    class="w-full h-full object-cover object-center block"
+                    style="width: 600px; height: 200px; object-fit: cover;">
+            </a>
+        </div>
+    {{- end -}}
+
+    {{- /* Title */ -}}
+    <h1 class="single-title" itemprop="name headline">
+        <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+    </h1>
+
+    {{- /* Meta */ -}}
+    <div class="post-meta">
+        {{ .Params.level }} degree in
+        {{ $study := .Params.study }}
+        {{ if eq (printf "%T" $study) "string" }}
+            {{/* Single study */}}
+            {{ $study }}
+        {{ else }}
+            {{/* $study is a list */}}
+            {{ range $i, $s := $study }}
+                {{ if $i }}, {{ end }}
+                {{ $s }}
+            {{ end }}
+        {{ end }}
+    </div>
+
+
+    {{- /* Footer */ -}}
+    <div class="post-footer" style="margin-top:0; margin-bottom:60px;">
+        <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a>
+        {{- with .Params.tags -}}
+            <div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;
+                {{- range $index, $value := . -}}
+                    {{- if gt $index 0 }},&nbsp;{{ end -}}
+                    {{- $tag := partialCached "function/path.html" $value $value | printf "/tags/%v" | $.Site.GetPage -}}
+                    <a href="{{ $tag.RelPermalink }}">{{ $tag.Title }}</a>
+                {{- end -}}
+            </div>
+        {{- end -}}
+    </div>
+</article>
