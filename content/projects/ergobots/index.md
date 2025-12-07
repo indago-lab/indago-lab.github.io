@@ -5,6 +5,7 @@ featuredimage: "project.jpeg"
 toc: true # Show table of contents
 start: 2025
 end: 2029
+description: "UNIRI research project"
 ---
 
 The development of new solvers for partial differential equations for the HEDAC method in ergodic control, as well as the application of the developed control, are the project's primary goals. Current implementations use direct solvers for linear systems in finite difference and finite element methods; however, existing approaches are not sufficiently efficient for 3D domains and the computational performance required for real-time control. As a solution, developing an iterative solver based on a uniform rectangular grid for 2D and 3D continua is proposed, along with applying techniques such as Adaptive Mesh Refinement and MultiGrid, which would significantly improve computational performance.
