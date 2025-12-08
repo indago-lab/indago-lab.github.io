@@ -2,6 +2,7 @@
 draft: false
 title: "Computational engineering"
 level: "Bachelor"
+semester: 6 # Courses are sorted by this parameter
 study:
   - "Mechanical Engineering"
 featuredimage: "close-up-laptop-workplace-construction-worker.jpg"

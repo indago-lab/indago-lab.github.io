@@ -2,6 +2,7 @@
 draft: false
 title: "Computer Applications in Engineering"
 level: "Bachelor"
+semester: 1 # Courses are sorted by this parameter
 study:
   - "Mechanical Engineering"
   - "Computer Science"

@@ -2,6 +2,7 @@
 draft: false
 title: "Numerical Methods"
 level: "Bachelor"
+semester: 3 # Courses are sorted by this parameter
 study:
   - "Mechanical Engineering"
   - "Computer Science"

@@ -1,8 +1,9 @@
 ---
+draft: false
 title: "Optimization in Engineering"
 level: "Master"
+semester: 9 # Courses are sorted by this parameter
 study: "Mechanical Engineering"
-draft: false
 featuredimage: "optimization.jpg"
 toc: true # Show table of contents
 ---
