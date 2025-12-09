@@ -6,6 +6,7 @@ email:
  - "stefan.ivic@gmail.com"
 featuredimage: "stefan-ivic.jpg"
 gscholar: "jFnbHJYAAAAJ"
+orcid: "0000-0002-2969-1787"
 draft: false
 toc: true # Show table of contents
 ---
