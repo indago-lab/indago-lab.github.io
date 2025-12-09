@@ -5,6 +5,7 @@ email:
  - "stefan.ivic@uniri.hr"
  - "stefan.ivic@gmail.com"
 featuredimage: "stefan-ivic.jpg"
+gscholar: "jFnbHJYAAAAJ"
 draft: false
 toc: true # Show table of contents
 ---

@@ -54,6 +54,10 @@
                     {{ end }}
                 </p>
                 {{ end }}
+                {{ if $params.gscholar }}
+                <a href="https://scholar.google.com/citations?user={{ $params.gscholar }}"
+                target="_blank" rel="noopener"><i class="ai ai-google-scholar ai-2x"></i></a>
+                {{ end }}
             </div>
         </div>
 
