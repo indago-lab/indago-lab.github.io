@@ -5,7 +5,7 @@
 
     <div class="page home" data-home="posts">
 <!--         style="  display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;"> -->
-        <h2>Staff members</h2></br>
+        <h2>Lab members</h2></br>
 
          {{- with .Site.Params.customCSS -}}
             {{- range . -}}
@@ -23,8 +23,8 @@
             </div>
         {{- end -}}
 
-        {{- /* Staff list */ -}}
-        {{- $pages := where .Site.RegularPages "Type" "staff" -}}
+        {{- /* People list */ -}}
+        {{- $pages := where .Site.RegularPages "Type" "people" -}}
 
         {{ $roleOrder := dict
             "Professor"           1
@@ -41,7 +41,7 @@
             {{ $order := index $roleOrder $role | default 999 }}
 
             {{/* Build a slice of pages with their order embedded */}}
-            {{- .Render "staff_item" -}}
+            {{- .Render "people_item" -}}
         {{ end }}
         </div>
     </div>

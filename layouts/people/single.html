@@ -42,8 +42,8 @@
                 <h1 class="single-title animate__animated animate__pulse animate__faster">{{- .Title -}}</h1>
                 {{- /* Subtitle */ -}}
                 {{- with $params.role -}}<h2 class="single-subtitle">{{ . }}</h2>{{- end -}}
-                {{ if $params.email }}
                 <p align="right">
+                {{ if $params.email }}
                     {{ $kind := printf "%T" $params.email }}  <!-- detect type -->
                     {{ if eq $kind "string" }}
                             <i class="fa fa-envelope" style="font-size:18px;color:gray"></i> {{ $params.email }}</br>
@@ -52,8 +52,18 @@
                             <i class="fa fa-envelope" style="font-size:18px;color:gray"></i> {{ . }}</br>
                         {{ end }}
                     {{ end }}
-                </p>
                 {{ end }}
+                {{ if $params.gscholar }}
+                <a href="https://scholar.google.com/citations?user={{ $params.gscholar }}"
+                target="_blank" rel="noopener"><i class="ai ai-google-scholar ai-2x" style="font-size:24px;color:gray"></i> Google scholar</a></br>
+                {{ end }}
+                {{ if $params.orcid }}
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">
+                <a href="https://orcid.org/{{ $params.orcid }}"
+                target="_blank" rel="noopener">
+                <i class="ai ai-orcid ai-2x" style="font-size:24px;color:gray"></i> ORCID</a></br>
+                {{ end }}
+                </p>
             </div>
         </div>
 

@@ -8,7 +8,7 @@ images: []
 featuredImage: "indago_code.jpg"
 ---
 
-We invite all researchers and students to attend our upcoming seminar on Wednesday, December 10th, at 12:00 in the Computational Engineering Laboratory (Room L-10).
+We invite all researchers and students to attend our upcoming seminar on Wednesday, December 10th, at 14:00 in the Computational Engineering Laboratory (Room L-10).
 
 Presentations will include:
 - Indago: A Developer and User Perspective
