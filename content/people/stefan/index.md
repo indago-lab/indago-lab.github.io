@@ -4,7 +4,7 @@ role: "Professor"
 email:
  - "stefan.ivic@uniri.hr"
  - "stefan.ivic@gmail.com"
-featuredimage: "stefan-ivic.jpg"
+featuredimage: "stefan_ivic.jpeg"
 gscholar: "jFnbHJYAAAAJ"
 orcid: "0000-0002-2969-1787"
 draft: false
