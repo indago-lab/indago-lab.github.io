@@ -1,7 +1,7 @@
 ---
-title: "Luka Lanča"
+title: "Karlo Jakac"
 role: "Postdoc"
-email: "luka.lanca@uniri.hr"
+email: "karlo.jakac@uniri.hr"
 featuredimage: "Ante-Sikirica.jpg"
 draft: false
 layout: "single"
