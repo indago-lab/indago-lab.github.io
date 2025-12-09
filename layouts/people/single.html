@@ -56,14 +56,13 @@
                 {{ end }}
                 {{ if $params.gscholar }}
                 <a href="https://scholar.google.com/citations?user={{ $params.gscholar }}"
-                target="_blank" rel="noopener"><i class="ai ai-google-scholar ai-2x"></i></a>
+                target="_blank" rel="noopener"><i class="ai ai-google-scholar ai-2x" style="font-size:18px;color:gray"></i></a></br>
                 {{ end }}
                 {{ if $params.orcid }}
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">
                 <a href="https://orcid.org/{{ $params.orcid }}"
                 target="_blank" rel="noopener">
-                <i class="ai ai-orcid ai-2x"></i> ORCID
-                </a>
+                <i class="ai ai-orcid ai-2x" style="font-size:18px;color:gray"></i></a></br>
                 {{ end }}
             </div>
         </div>
