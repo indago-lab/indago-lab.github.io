@@ -4,6 +4,7 @@ title = 'Computational Engineering Laboratory, Faculty of Engineering, Universit
 
 # Theme
 theme = "LoveIt"
+googleAnalytics = "G-9B0J8TJ8CZ"
 
 # Main menu
 [menu]
