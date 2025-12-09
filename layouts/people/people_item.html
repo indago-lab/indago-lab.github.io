@@ -4,7 +4,7 @@
 <article class="single summary" style="width:250px; max-width=250px;">
 
     {{- /* Featured image */ -}}
-    {{ $dir := replaceRE "^staff/" "" .File.Dir }}
+    {{ $dir := replaceRE "^people/" "" .File.Dir }}
     {{ $imageName := $params.featuredimagepreview | default $params.featuredimage }}
     {{ $image := printf "%s%s" $dir $imageName }}
 
