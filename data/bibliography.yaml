@@ -1,0 +1,74 @@
+ivic2017ergodicity-based:
+    authors:
+    - Stefan Ivić
+    - Bojan Crnković
+    - Igor Mezić
+    title: Ergodicity-Based Cooperative Multiagent Area Coverage via a Potential Field
+    year: 2017
+    journal: IEEE transactions on cybernetics
+    url: https://ieeexplore.ieee.org/abstract/document/7786872/
+    doi: 10.1109/TCYB.2016.2634400
+    pdf: ivic2017ergodicity-based.pdf
+
+ivic2017s-lay:
+    authors:
+    - Stefan Ivić
+    - Siniša Družeta
+    - Ivana Hreljac
+    title: S-Lay pipe laying optimization using specialized PSO method
+    year: 2017
+    journal: Structural and Multidisciplinary Optimization
+    url: https://link.springer.com/article/10.1007/s00158-017-1665-9
+
+ivic2023mutli-uav:
+    authors:
+    - Stefan Ivić
+    - Bojan Crnković
+    - Luka Grbčić
+    - Lea Matleković
+    title: Multi-UAV trajectory planning for 3D visual inspection of complex structures
+    year: 2023
+    journal: Automation in Construction
+    url: https://www.sciencedirect.com/science/article/pii/S0926580522005799
+    pdf: ivic2023mutli-uav.pdf
+
+ivic2019autonomous:
+    authors:
+    - Stefan Ivić
+    - Aleksandr Andrejčuk
+    - Siniša Družeta
+    title: Autonomous control for multi-agent non-uniform spraying
+    year: 2019
+    journal: Applied Soft Computing
+    url: https://www.sciencedirect.com/science/article/pii/S1568494619302352
+
+ivic2022motion:
+    authors:
+    - Stefan Ivić
+    title: Motion control for autonomous heterogeneous multiagent area search in uncertain conditions
+    year: 2022
+    journal: IEEE Transactions on Cybernetics
+    url: https://ieeexplore.ieee.org/abstract/document/9219174
+
+ivic2020search:
+    authors: [Stefan Ivić, Bojan Crnković, Hassan Arbabi, Sophie Loire, Clary Patrick, Igor Mezić]
+    title: "Search strategy in a complex and dynamic environment: the MH370 case"
+    year: 2020
+    journal: Scientific Reports
+    url: https://www.nature.com/articles/s41598-020-76274-0
+    pdf: ivic2020search.pdf
+
+ivic2022constrained:
+    title: Constrained multi-agent ergodic area surveying control based on finite element approximation of the potential field
+    authors: [Stefan Ivić, Ante Sikirica, Bojan Crnković]
+    year: 2022
+    journal: Engineering applications of artificial intelligence
+    url: https://www.sciencedirect.com/science/article/pii/S0952197622004316
+    pdf: ivic2022constrained.pdf
+
+jakac2024approximation:
+    title: Approximation of sea surface velocity field by fitting surrogate two-dimensional flow to scattered measurements
+    authors: [Karlo Jakac, Luka Lanča, Ante Sikirica, Stefan Ivić]
+    year: 2024
+    journal: Applied ocean research
+    url: https://www.sciencedirect.com/science/article/pii/S0141118724003675
