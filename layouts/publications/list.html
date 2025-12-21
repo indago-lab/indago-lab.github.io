@@ -1,0 +1,39 @@
+{{- define "content" -}}
+    {{- $params := .Scratch.Get "params" -}}
+    {{- $profile := .Site.Params.home.profile -}}
+    {{- $posts := .Site.Params.home.posts -}}
+
+    <div class="page home" data-home="posts">
+
+        {{- /* Content */ -}}
+        {{- if .Content -}}
+            <div class="single">
+                <div class="content" id="content">
+                    {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                </div>
+            </div>
+        {{- end -}}
+
+
+        <h2>Books</h2></br>
+        {{- /* Books list */ -}}
+        {{- $pages := where .Site.RegularPages "Type" "publications" -}}
+
+        {{ range sort (where .Pages ".Params.publication_type" "book") ".Params.year" "desc" }}
+            {{ .Render "book_item" }}
+        {{ end }}
+
+
+
+        <h2>Papers</h2></br>
+        Not yet avaliable.
+        {{- /* Papers list */ -}}
+        {{- $pages := where .Site.RegularPages "Type" "publications" -}}
+<!--         {{ $pages }} -->
+
+        {{ range sort (where .Pages ".Params.publication_type" "paper") ".Params.year" "desc" }}
+            {{- .Render "paper_item" -}}
+        {{ end }}
+
+    </div>
+{{- end -}}
