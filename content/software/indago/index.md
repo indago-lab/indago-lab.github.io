@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Indago"
-featuredimage: "optimization.jpg"
+featuredimage: "indago_monitoring.jpg"
 toc: true # Show table of contents
 start: 2021
 end: 2022
