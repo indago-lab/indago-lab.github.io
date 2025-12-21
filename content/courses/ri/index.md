@@ -16,4 +16,4 @@ Understanding the possibilities for the automation of engineering tasks by progr
 Identify opportunities for deploying automation of engineering tasks using high-level programming language. Connect several computer programs by adjusting input-output data. Create advanced data visualizations and other software's output visualizations. Automate the conducting of repetitive engineering tasks and establish systems for their simple optimization.
 
 ## Course content
-Basic programming skills in high-level programming language for software automation, visualization, preprocessing and data processing. Programmable communication between different software. Read and write from a file. Programmable visualization of data. Applying the acquired knowledge on a specific engineering task (project)
+Basic programming skills in high-level programming language for software automation, visualization, preprocessing and data processing. Programmable communication between different software. Read and write from a file. Programmable visualization of data. Applying the acquired knowledge on a specific engineering task (project).

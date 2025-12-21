@@ -9,10 +9,12 @@ study:
 featuredimage: "prui.jpg"
 toc: true
 ---
-This is entry-level course.
 
-## What we do here?
-Not so much.
+## Course objectives
+Acquiring knowledge and skills necessary for active participation in an computer aided engineering environment. This primarily refers to acquiring basic knowledge of computer technology and the use of office software, as well as acquiring knowledge of the basics of programming in high-level programming languages.
 
-## Teaching materials
-There is plenaty of them.
+## Expected course learning outcomes
+Adopt the basic concepts of computer technology. Use standard table calculators. Use high-level programming languages for general engineering purposes.
+
+## Course content
+Basic concepts of computer technology (types of computers, computer hardware, operating systems, Internet, computer security). Tabular calculations. Programming in high-level programming language for engineering needs.
