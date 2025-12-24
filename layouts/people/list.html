@@ -7,13 +7,6 @@
 <!--         style="  display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;"> -->
         <h2>Lab members</h2></br>
 
-         {{- with .Site.Params.customCSS -}}
-            {{- range . -}}
-                {{- $style := resources.Get . | minify | fingerprint -}}
-                <link rel="stylesheet" href="{{ $style.Permalink }}">
-            {{- end -}}
-        {{- end -}}
-
         {{- /* Content */ -}}
         {{- if .Content -}}
             <div class="single">
