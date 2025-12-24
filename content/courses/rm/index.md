@@ -1,14 +1,20 @@
 ---
 draft: false
-title: "Numerical Methods"
+title: "Computational Methods"
 level: "Bachelor"
 semester: 3 # Courses are sorted by this parameter
 study:
   - "Mechanical Engineering"
   - "Computer Science"
+  - "Mechatronics and Robotics"
 featuredimage: "rm_logo.jpg"
 toc: true
 ---
+
+This course, in slight variations and different names, is offered in different study programs:
+- *Computational methods*, Mechanical Engineering, Bachelor degree
+- *Computational methods*, Mechatronics and Robotics, Bachelor degree
+- *Numerical methods*, Computer Science, Bachelor degree
 
 ## Course objectives
 Identification of numerical problems in engineering. Understanding and application of basic numerical methods. Basic knowledge of the Python programming language and relevant numerical and visualization modules. Independent writing of short computer programs and use of existing software for solving numerical tasks.
