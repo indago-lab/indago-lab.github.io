@@ -8,3 +8,5 @@ layout: "single"
 toc: false
 ---
 
+## Publications
+{{< bibliography author="Karlo Jakac" >}}

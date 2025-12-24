@@ -25,58 +25,9 @@
 
 
 
-        <h2>Journal papers</h2> List is not fully populated
+        <h2>Journal papers</h2> <p>List is not fully populated</p>
 
-        {{/* Step 1: Build slice of unique years as strings */}}
-        {{ $years := slice }}
-        {{ range $id, $ref := site.Data.bibliography }}
-        {{ $yr := printf "%d" $ref.year }}
-        {{ if not (in $years $yr) }}
-            {{ $years = $years | append $yr }}
-        {{ end }}
-        {{ end }}
-
-        {{/* Step 2: Sort ascending, then reverse for descending */}}
-        {{ $years = sort $years }}
-        {{ $years_reverse := slice }}
-        {{ range $i := seq 0 (sub (len $years) 1) }}  <!-- 0 to last index -->
-            {{ $year := index $years (sub (sub (len $years) 1) $i) }}  <!-- count backwards -->
-            {{ $years_reverse = $years_reverse | append $year }}
-        {{ end }}
-
-        {{/* Step 3: Render papers grouped by year */}}
-        {{ range $i, $year := $years_reverse }}
-        <h3>{{ $year }}</h3>
-        <div class="papers-year">
-            {{ range $id, $ref := site.Data.bibliography }}
-            {{ if eq (printf "%d" $ref.year) $year }}
-                <div class="paper-entry" style="margin-bottom:1.5em;">
-
-                {{ with $ref.url }}
-                    <a href="{{ . }}" target="_blank" rel="noopener">
-                {{ end }}
-                <strong><em>{{ $ref.title }}</em></strong><br>
-                {{ with $ref.url }}
-                    </a>
-                {{ end }}
-                {{ delimit $ref.authors ", " }}. <em>{{ $ref.journal }}</em> ({{ $ref.year }})
-
-<!--                {{ with $ref.url }}
-                    <a href="{{ . }}" target="_blank" rel="noopener" title="Journal URL">
-                    <i class="fa-solid fa-up-right-from-square" style="color:purple;font-size:1.0em;"></i>
-                    </a>
-                {{ end }}-->
-
-                {{ with $ref.pdf }}
-                    <a href="/pdfs/{{ . }}" rel="noopener" title="Download PDF">
-                    <i class="fa-solid fa-file-pdf" style="color:orange;font-size:1.3em;"></i>
-                    </a>
-                {{ end }}
-                </div>
-            {{ end }}
-            {{ end }}
-        </div>
-        {{ end }}
+        {{ partial "bibliography.html" (dict "author" nil) }}
 
 
     </div>

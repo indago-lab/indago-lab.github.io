@@ -28,3 +28,6 @@ I also do some research.
 
 ## Projects
  Nothing yet
+
+## Publications
+{{< bibliography author="Stefan Ivić" >}}

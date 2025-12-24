@@ -8,3 +8,5 @@ layout: "single"
 ---
 Dr. Ante has entered the room.
 
+## Publications
+{{< bibliography author="Ante Sikirica" >}}

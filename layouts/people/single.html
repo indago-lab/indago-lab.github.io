@@ -83,6 +83,13 @@
         {{- /* Content */ -}}
         <div class="content" id="content" style="height: fit-content; display: inline-block;">
             {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+<!--
+<h2>Publications</h2>
+
+            {{ partial "bibliography.html" (dict "author" "John Doe") }}-->
+
+
+
         </div>
 
 <!--        <div style="height: fit-content; display: inline-block;">

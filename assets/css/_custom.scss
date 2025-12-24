@@ -1,0 +1,31 @@
+// ==============================
+// Custom style
+// 自定义样式
+// ==============================
+
+/* For displaying items in a grid */
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.bib_year {
+    font-size: 20px;
+}
+.paper_entry {
+    margin-bottom:.4em;
+}
+.cite_title {
+    color: #000;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cite_title:hover { color: #2d96bd; }
+.cite {
+    color: #000;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

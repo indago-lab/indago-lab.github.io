@@ -7,3 +7,6 @@ draft: false
 layout: "single"
 toc: false
 ---
+
+## Publications
+{{< bibliography author="Luka Lanča" >}}

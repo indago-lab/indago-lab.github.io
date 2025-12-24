@@ -1,0 +1,56 @@
+
+{{/* Author filter */}}
+{{ $author := .author }}
+{{ $papers := slice }}
+{{ if $author }}
+    {{ range $id, $ref := site.Data.bibliography }}
+        {{ if in $ref.authors $author }}
+            {{ $papers = $papers | append $ref }}
+        {{ end }}
+    {{ end }}
+{{ else }}
+    {{ $papers = site.Data.bibliography }}
+{{ end }}
+
+{{/* Build slice of unique years as strings */}}
+{{ $years := slice }}
+{{ range $id, $ref := $papers }}
+    {{ $yr := printf "%d" $ref.year }}
+    {{ if not (in $years $yr) }}
+        {{ $years = $years | append $yr }}
+    {{ end }}
+{{ end }}
+
+{{/* Sort ascending, then reverse for descending */}}
+{{ $years = sort $years }}
+{{ $years_reverse := slice }}
+{{ range $i := seq 0 (sub (len $years) 1) }} <!-- 0 to last index -->
+    {{ $year := index $years (sub (sub (len $years) 1) $i) }} <!-- count backwards -->
+    {{ $years_reverse = $years_reverse | append $year }}
+{{ end }}
+
+{{/* Render papers grouped by year */}}
+{{ range $i, $year := $years_reverse }}
+<!--     <div class="bib_year">{{ $year }}</div> -->
+    <div class="papers-year">
+    {{ range $id, $ref := $papers }}
+        {{ if eq (printf "%d" $ref.year) $year }}
+            <div class="paper_entry">
+                {{ with $ref.url }}
+                    <a href="{{ . }}" target="_blank" rel="noopener">
+                {{ end }}
+                        <div class="cite_title">{{ $ref.title }}</div>
+                {{ with $ref.url }}
+                    </a>
+                {{ end }}
+                <div class="cite">
+                    {{ delimit $ref.authors ", " }}. <em>{{ $ref.journal }}</em> ({{ $ref.year }})
+                    {{ with $ref.pdf }}
+                        <a href="/pdfs/{{ . }}" rel="noopener" title="Download PDF"> <i class="fa-solid fa-file-pdf" style="color:orange;font-size:1.3em;"></i></a>
+                    {{ end }}
+                </div>
+            </div>
+        {{ end }}
+    {{ end }}
+    </div>
+{{ end }}
