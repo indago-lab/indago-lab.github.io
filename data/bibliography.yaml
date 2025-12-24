@@ -20,6 +20,40 @@ ivic2017s-lay:
     journal: Structural and Multidisciplinary Optimization
     url: https://link.springer.com/article/10.1007/s00158-017-1665-9
 
+ivic2019autonomous:
+    authors:
+    - Stefan Ivić
+    - Aleksandr Andrejčuk
+    - Siniša Družeta
+    title: Autonomous control for multi-agent non-uniform spraying
+    year: 2019
+    journal: Applied Soft Computing
+    url: https://www.sciencedirect.com/science/article/pii/S1568494619302352
+
+ivic2020search:
+    authors: [Stefan Ivić, Bojan Crnković, Hassan Arbabi, Sophie Loire, Clary Patrick, Igor Mezić]
+    title: "Search strategy in a complex and dynamic environment: the MH370 case"
+    year: 2020
+    journal: Scientific Reports
+    url: https://www.nature.com/articles/s41598-020-76274-0
+    pdf: ivic2020search.pdf
+
+ivic2022motion:
+    authors:
+    - Stefan Ivić
+    title: Motion control for autonomous heterogeneous multiagent area search in uncertain conditions
+    year: 2022
+    journal: IEEE Transactions on Cybernetics
+    url: https://ieeexplore.ieee.org/abstract/document/9219174
+
+ivic2022constrained:
+    title: Constrained multi-agent ergodic area surveying control based on finite element approximation of the potential field
+    authors: [Stefan Ivić, Ante Sikirica, Bojan Crnković]
+    year: 2022
+    journal: Engineering applications of artificial intelligence
+    url: https://www.sciencedirect.com/science/article/pii/S0952197622004316
+    pdf: ivic2022constrained.pdf
+
 ivic2023mutli-uav:
     authors:
     - Stefan Ivić
@@ -32,43 +66,53 @@ ivic2023mutli-uav:
     url: https://www.sciencedirect.com/science/article/pii/S0926580522005799
     pdf: ivic2023mutli-uav.pdf
 
-ivic2019autonomous:
-    authors:
-    - Stefan Ivić
-    - Aleksandr Andrejčuk
-    - Siniša Družeta
-    title: Autonomous control for multi-agent non-uniform spraying
-    year: 2019
-    journal: Applied Soft Computing
-    url: https://www.sciencedirect.com/science/article/pii/S1568494619302352
-
-ivic2022motion:
-    authors:
-    - Stefan Ivić
-    title: Motion control for autonomous heterogeneous multiagent area search in uncertain conditions
-    year: 2022
-    journal: IEEE Transactions on Cybernetics
-    url: https://ieeexplore.ieee.org/abstract/document/9219174
-
-ivic2020search:
-    authors: [Stefan Ivić, Bojan Crnković, Hassan Arbabi, Sophie Loire, Clary Patrick, Igor Mezić]
-    title: "Search strategy in a complex and dynamic environment: the MH370 case"
-    year: 2020
-    journal: Scientific Reports
-    url: https://www.nature.com/articles/s41598-020-76274-0
-    pdf: ivic2020search.pdf
-
-ivic2022constrained:
-    title: Constrained multi-agent ergodic area surveying control based on finite element approximation of the potential field
-    authors: [Stefan Ivić, Ante Sikirica, Bojan Crnković]
-    year: 2022
-    journal: Engineering applications of artificial intelligence
-    url: https://www.sciencedirect.com/science/article/pii/S0952197622004316
-    pdf: ivic2022constrained.pdf
-
 jakac2024approximation:
     title: Approximation of sea surface velocity field by fitting surrogate two-dimensional flow to scattered measurements
     authors: [Karlo Jakac, Luka Lanča, Ante Sikirica, Stefan Ivić]
     year: 2024
     journal: Applied ocean research
     url: https://www.sciencedirect.com/science/article/pii/S0141118724003675
+
+canadija2024carbon:
+    title: "Carbon nanotubes as a basis of metamaterials and nanostructures: Crafting via design optimization"
+    authors: [Marko Čanađija, Stefan Ivić]
+    year: 2024
+    journal: Mechanics of materials
+    url: https://www.sciencedirect.com/science/article/pii/S0167663624001972
+
+dumencic2025experimental:
+    title: Experimental Validation of UAV Search and Detection System in Real Wilderness Environment
+    authors: [Stella Dumenčić, Luka Lanča, Karlo Jakac, Stefan Ivić]
+    journal: Drones
+    year: 2025
+    url: https://www.mdpi.com/2504-446X/9/7/473
+
+jakac2025efficient:
+    title: Efficient data-driven flow modeling for accurate passive scalar advection in submesoscale domains
+    authors: [Karlo Jakac, Luka Lanča, Ante Sikirica, Stefan Ivić]
+    journal: Applied Ocean Research
+    year: 2025
+    url: https://www.sciencedirect.com/science/article/pii/S0141118725002858
+    pdf: jakac2025efficient.pdf
+
+lanca2025ergodic:
+    title: Ergodic exploration of dynamic distribution
+    authors: [Luka Lanča, Karlo Jakac, Sylvain Calinon, Stefan Ivić]
+    year: 2025
+    journal: IEEE Robotics and Automation Letters
+    url: https://ieeexplore.ieee.org/document/11217184
+
+lanca2025optimal:
+    title: Optimal Flight Speed and Height Parameters for Computer Vision Detection in UAV Search
+    authors: [Luka Lanča, Matej Mališa, Karlo Jakac, Stefan Ivić]
+    year: 2025
+    journal: Drones
+    url: https://www.mdpi.com/2504-446X/9/9/595
+    pdf: lanca2025optimal.pdf
+
+lanca2026probabilistic:
+    title: Probabilistic Modeling and Control for Multi-UAV Search Over Uneven Terrain
+    authors: [Luka Lanča, Karlo Jakac, Stefan Ivić]
+    journal: IEEE Transactions on Robotics
+    year: 2026
+    url: https://ieeexplore.ieee.org/document/11304178
