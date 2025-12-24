@@ -6,7 +6,7 @@ semester: 3 # Courses are sorted by this parameter
 study:
   - "Mechanical Engineering"
   - "Computer Science"
-featuredimage: "nvidia_cubes.png"
+featuredimage: "rm_logo.jpg"
 toc: true
 ---
 
