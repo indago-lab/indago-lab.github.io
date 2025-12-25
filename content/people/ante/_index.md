@@ -20,7 +20,7 @@ Some students even show up. Sometimes to the right classroom.
 
 
 ## Research
-I occasionally do some research. Sometimes even on purpose.
+I do research when the coffee machine is working and the stars align.
 
 
 ## Publications
