@@ -116,3 +116,87 @@ lanca2026probabilistic:
     journal: IEEE Transactions on Robotics
     year: 2026
     url: https://ieeexplore.ieee.org/document/11304178
+
+sikirica2026improving:
+    title: Improving hydrofoil efficiency through simulation-driven design optimization
+    authors: [Ante Sikirica, Ivana Lučin, Marta Alvir, Tin Matulja]
+    journal: Ocean Engineering
+    year: 2026
+    url: https://www.sciencedirect.com/science/article/abs/pii/S002980182503625X
+
+sikirica2024computationally:
+    title: Computationally efficient optimisation of elbow-type draft tube using neural network surrogates
+    authors: [Ante Sikirica, Ivana Lučin, Marta Alvir, Lado Kranjčević, Zoran Čarija]
+    journal: Alexandria Engineering Journal
+    year: 2024
+    url: https://www.sciencedirect.com/science/article/pii/S111001682400084X
+
+rak2023experimental:
+    title: Experimental and LBM analysis of medium-Reynolds number fluid flow around NACA0012 airfoil
+    authors: [Andro Rak, Luka Grbčić, Ante Sikirica, Lado Kranjčević]
+    journal: International Journal of Numerical Methods for Heat & Fluid Flow
+    year: 2023
+    url: https://www.emerald.com/hff/article-abstract/33/5/1955/445157/Experimental-and-LBM-analysis-of-medium-Reynolds?redirectedFrom=fulltext
+
+alvir2023reconstruction:
+    title: Reconstruction and analysis of negatively buoyant jets with interpretable machine learning
+    authors: [Marta Alvir, Luka Grbčić, Ante Sikirica, Lado Kranjčević]
+    journal: Marine Pollution Bulletin
+    year: 2023
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0025326X23003120
+
+sikirica2023machine:
+    title: Machine learning based surrogate models for microchannel heat sink optimization
+    authors: [Ante Sikirica, Luka Grbčić, Lado Kranjčević]
+    journal: Applied Thermal Engineering
+    year: 2023
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1359431122018476
+
+alvir2022openfoam:
+    title: OpenFOAM-ROMS nested model for coastal flow and outfall assessment
+    authors: [Marta Alvir, Luka Grbčić, Ante Sikirica, Lado Kranjčević]
+    journal: Ocean Engineering
+    year: 2022
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0029801822018182
+
+luvcin2022predictive:
+    title: Predictive modeling of microbiological seawater quality in karst region using cascade model
+    authors: [Ivana Lučin, Siniša Družeta, Goran Mauša, Marta Alvir, Luka Grbčić, Darija Vukić Lušić, Ante Sikirica, Lado Kranjčević]
+    journal: Science of the Total Environment
+    year: 2022
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0048969722051087
+
+grbvcic2022coastal:
+    title: Coastal water quality prediction based on machine learning with feature interpretation and spatio-temporal analysis
+    authors: [Luka Grbčić, Siniša Družeta, Goran Mauša, Tomislav Lipić, Darija Vukić Lušić, Marta Alvir, Ivana Lučin, Ante Sikirica, Davor Davidović, Vanja Travaš]
+    journal: Environmental Modelling & Software
+    year: 2022
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1364815222001633
+
+sikirica2022computational:
+    title: Computational Efficiency Assessment of Adaptive Mesh Refinement for Turbulent Jets in Crossflow
+    authors: [Ante Sikirica, Luka Grbčić, Marta Alvir, Lado Kranjčević]
+    journal: Mathematics
+    year: 2022
+    url: https://www.mdpi.com/2227-7390/10/4/620
+
+grbvcic2021large:
+    title: Large Eddy Simulation of turbulent fluid mixing in double-tee junctions
+    authors: [Luka Grbčić, Lado Kranjčević, Ivana Lučin, Ante Sikirica]
+    journal: Ain Shams Engineering Journal
+    year: 2021
+    url: https://www.sciencedirect.com/science/article/pii/S2090447920301246
+
+sikirica2020cavitation:
+    title: Cavitation model calibration using machine learning assisted workflow
+    authors: [Ante Sikirica, Zoran Čarija, Ivana Lučin, Luka Grbčić, Lado Kranjčević]
+    journal: Mathematics
+    year: 2020
+    url: https://www.mdpi.com/2227-7390/8/12/2107
+
+carija2020cfd:
+    title: CFD study of the PTS experiment in ROCOM test facility
+    authors: [Zoran Čarija, Fran Ledić, Ante Sikirica, Bojan Niceno]
+    journal: Nuclear Engineering and Technology
+    year: 2020
+    url: https://www.sciencedirect.com/science/article/pii/S1738573320300322
