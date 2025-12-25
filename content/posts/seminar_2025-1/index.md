@@ -4,6 +4,7 @@ draft: false
 title: 'Computational engineering seminar'
 linkto:
     - "courses/out"
+    - "software/indago"
 images: []
 featuredImage: "indago_code.jpg"
 ---
