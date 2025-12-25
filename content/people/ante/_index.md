@@ -9,15 +9,19 @@ draft: false
 layout: "single"
 ---
 
+
 ## Teaching
 I teach courses:
- - Computational methods
  - Application of parallel computing
+ - Computational methods
  - Scripting languages
+ 
 Some students even show up. Sometimes to the right classroom.
+
 
 ## Research
 I occasionally do some research. Sometimes even on purpose.
+
 
 ## Publications
 {{< bibliography author="Ante Sikirica" >}}
