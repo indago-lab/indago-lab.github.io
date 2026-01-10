@@ -16,6 +16,18 @@ This course, in slight variations and different names, is offered in different s
 - *Computational methods*, Mechatronics and Robotics, Bachelor degree
 - *Numerical methods*, Computer Science, Bachelor degree
 
+<img
+  src="rm_logo.jpg"
+  style="
+    width: 100%;
+    aspect-ratio: 3 / 1.5;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  ">
+
+<br/><br/>
+
 ## Course objectives
 Identification of numerical problems in engineering. Understanding and application of basic numerical methods. Basic knowledge of the Python programming language and relevant numerical and visualization modules. Independent writing of short computer programs and use of existing software for solving numerical tasks.
 
