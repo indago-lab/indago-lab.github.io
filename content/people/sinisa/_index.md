@@ -1,6 +1,6 @@
 ---
 title: "Siniša Družeta"
-role: "Full Professor"
+role: "Professor"
 email: "sinisa.druzeta@riteh.uniri.hr"
 featuredimage: "sinisa_druzeta.jpg"
 gscholar: "amb1sdQAAAAJ"
