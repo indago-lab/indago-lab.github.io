@@ -2,7 +2,7 @@
 title: "Ante Sikirica"
 role: "Postdoc"
 email: "ante.sikirica@uniri.hr"
-featuredimage: "sikirica_ante.png"
+featuredimage: "sikirica_ante.jpg"
 gscholar: "pLp5WMwAAAAJ"
 orcid: "0000-0001-5481-119X"
 draft: false
