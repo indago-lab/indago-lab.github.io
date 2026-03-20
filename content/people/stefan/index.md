@@ -11,12 +11,11 @@ draft: false
 toc: true # Show table of contents
 ---
 
-- 2008. Master degree in mechanical engineering
-- 2014. Phd. Fundamental Engineering Sciences
+## Education
+- 2008. Master degree in Mechanical Engineering, University of Rijeka, Faculty of Engineering
+- 2014. Phd. in Fundamental Engineering Sciences, University of Rijeka, Faculty of Engineering
 
 ## Teaching courses
-
-This
  - Computational methods
  - [Numerical methods](../../courses/rm)
  - Computational engineering
