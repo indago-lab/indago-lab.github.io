@@ -1,0 +1,8 @@
+<div class="gallery-item">
+  <a href="{{ .Get "src" }}" data-fancybox="gallery">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "caption" }}" loading="lazy">
+  </a>
+  {{ with .Get "caption" }}
+    <p class="caption">{{ . }}</p>
+  {{ end }}
+</div>

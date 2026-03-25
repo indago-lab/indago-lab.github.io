@@ -30,3 +30,32 @@
     margin-bottom: 0px;
     padding-left:5px;
 }
+
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery-item {
+  width: calc(33.333% - 10px);
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* makes them square */
+  object-fit: cover;
+  border-radius: 8px;
+}
