@@ -3,7 +3,7 @@ date: '2026-03-25T10:15:45+01:00'
 draft: false
 title: 'Lecture: Autonomous UAV system for oceanic search and rescue'
 linkto:
-    - "projects/beyond"
+    - "projects/aoser"
 images: []
 featuredImage: "cres_aerial.jpg"
 ---
