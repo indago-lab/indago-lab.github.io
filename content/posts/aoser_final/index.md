@@ -19,7 +19,7 @@ A real-time sea current field reconstruction system was developed, based on data
 
 The project resulted in more than 300 flight hours, over 25,000 collected photographs, 7 papers published in renowned scientific journals, 12 conference presentations, and 2 completed doctoral dissertations.
 
-The lecture will be held on **Friday, April 10, 2026, at 12:00** in room P1 at the Faculty of Engineering in Rijeka.
+The lecture will be held on **Friday, April 10, 2026, at 11:00** in room P1 at the Faculty of Engineering in Rijeka.
 
 <br/>
 
