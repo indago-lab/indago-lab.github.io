@@ -29,5 +29,5 @@ Courses covered in the textbook:
 - Systems and Data Analysis (partial)
 
 {{< admonition type=success title="Download the PDF" open=true >}}
-[Version 17-12-2025](python_book.pdf)
+[Version 13-05-2026](python_book.pdf)
 {{< /admonition >}}
