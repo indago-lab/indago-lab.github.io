@@ -30,5 +30,5 @@ Field experiments will employ state-of-the-art robot platforms that are already 
 
 DECOR will bridge fundamental research in ergodic control with practical robotic applications, pushing forward the state of the art in autonomous search, inspection, and surface treatment. By unifying methods from control theory, geometry, and numerical optimization, the project will establish ergodic control as a versatile framework for intelligent exploration under uncertainty. Open-source dissemination will foster uptake by the wider robotics community, while extensive real-world demonstrations will provide evidence of its industrial and societal relevance, including effective search-and-rescue operations, scalable infrastructure monitoring, and novel industrial automation capabilities.
 
-PI at RITEH is prof. Stefan Ivić, and at IDIAP dr. Sylvain Calinon [https://calinon.ch/](https://calinon.ch/).
+PI at RITEH is prof. Stefan Ivić, and at IDIAP dr. Sylvain Calinon ([https://calinon.ch/](https://calinon.ch/)).
 
