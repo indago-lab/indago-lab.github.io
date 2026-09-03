@@ -22,7 +22,9 @@ The objective of the project is to develop and validate computational models and
 The work comprises a review of existing finite element approaches for in-place pipeline analysis and implementation of a Python-based toolbox that enables the setup and automation of such simulations. Software solution is accompanied by automated testing, validation on test cases, and technical documentation.
 
 The project is carried out for an industry partner and its results are subject to a confidentiality agreement, so implementation details and results are not publicly available.
+
 <br/>
+
 **Principal Investigator:** Stefan Ivić.
 
 **Team:** Karlo Jakac, Luka Lanča, Ante Sikirica.
