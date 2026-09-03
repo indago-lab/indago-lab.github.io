@@ -11,9 +11,6 @@ description: "Research and software development project with Aventa Adriatic d.o
 **Research and software development project with Aventa Adriatic d.o.o.**
 
 April - September 2026
-<br/><br/>
-{{< figure src="aventatools_front.png" width="400" >}}
-<br/><br/>
 
 The objective of the project is to develop and validate computational models and a prototype software solution for the in-place finite element analysis of subsea pipelines, that is, the assessment of a pipeline resting on the seabed, under operational thermal and mechanical loads.
 
@@ -21,12 +18,12 @@ The work comprises a review of existing finite element approaches for in-place p
 
 The project is carried out for an industry partner and its results are subject to a confidentiality agreement, so implementation details and results are not publicly available.
 
-Principal Investigator: Stefan Ivić.
+**Principal Investigator:** Stefan Ivić.
 
-Team: Karlo Jakac, Luka Lanča, Ante Sikirica.
+**Team:** Karlo Jakac, Luka Lanča, Ante Sikirica.
 
 <br/>
-<div style="display:flex; gap:20px; flex-wrap:wrap; align-items:center; max-width:800px;">
-  <img src="aventatools_anim.gif" style="flex:1 1 420px; min-width:280px; max-width:100%;">
-  <img src="aventa_logo.jpg" style="flex:0 1 180px; min-width:140px; max-width:100%;">
+<div style="display:flex; gap:20px; flex-wrap:wrap; align-items:center; justify-content:center; max-width:800px; margin:0 auto;">
+  <img src="aventatools_anim.gif" style="width:420px; max-width:100%;">
+  <img src="aventa_logo.jpg" style="width:180px; max-width:100%;">
 </div>
