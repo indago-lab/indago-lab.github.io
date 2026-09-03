@@ -16,12 +16,21 @@
         {{- end -}}
 
 
-        {{- /* Courses list */ -}}
-        {{- $pages := where .Site.RegularPages "Type" "projects" -}}
+        {{- /* Projects list: `pinned: true` first, then by end year descending */ -}}
+        {{- $pinned := slice -}}
+        {{- $others := slice -}}
+        {{- range sort .Pages ".Params.end" "desc" -}}
+            {{- if .Params.pinned -}}
+                {{- $pinned = $pinned | append . -}}
+            {{- else -}}
+                {{- $others = $others | append . -}}
+            {{- end -}}
+        {{- end -}}
 
-
-        {{ range sort .Pages ".Params.end" "desc" }}
-            {{/* Build a slice of pages with their order embedded */}}
+        {{ range $pinned }}
+            {{- .Render "project_item" -}}
+        {{ end }}
+        {{ range $others }}
             {{- .Render "project_item" -}}
         {{ end }}
 
