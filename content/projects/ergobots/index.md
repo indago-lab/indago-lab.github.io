@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Multi-robot systems for safety operations in unknown environments"
-featuredimage: "project.jpeg"
+featuredimage: "ergobots.png"
 toc: true # Show table of contents
 start: 2025
 end: 2029
