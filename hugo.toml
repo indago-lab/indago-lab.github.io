@@ -90,13 +90,13 @@ googleAnalytics = "G-9B0J8TJ8CZ"
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = "https://riteh.uniri.hr/wp-content/uploads/2024/06/riteh-znak-plavo.svg"
+      logo = "riteh-sekundarni-znak-crno.svg"
       # title name
       # 标题名称
       name = "Computational Engineering Lab"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "  "
+      pre = "   "
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
