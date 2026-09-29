@@ -1,7 +1,7 @@
 ---
 date: '2026-09-27T09:10:00+01:00'
 draft: false
-title: 'Indago Lab on IROS 2026'
+title: 'Indago Lab at IROS 2026'
 images: []
 featuredImage: "iros_2026.jpg"
 ---
