@@ -12,7 +12,7 @@ The kick-off meeting of the Interreg SMART GUARD project was held in Labin on Oc
 
 Our team is a project partner responsible for providing scientific and technical expertise in simulation, analysis, and risk assessment related to wildfires and urban heat island phenomena.
 
-More info on the project is avaliable at [lab's SMART GUARD projcet page](../../projects/smart_guard).
+More info on the project is avaliable at [lab's SMART GUARD project page](../../projects/smart_guard).
 
 
 <br/>

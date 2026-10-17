@@ -18,15 +18,15 @@ Luka Lanča presented **“Probabilistic Modeling and Control for Multi-UAV Sear
 <br/>
 
 {{< gallery >}}
-<img src="images/img1.png">
-<img src="images/img2.jpg">
-<img src="images/img3.jpg">
+<img src="./images/img1.png">
+<img src="./images/img2.jpg">
+<img src="./images/img3.jpg">
+<img src="./images/img4.jpg">
 
-<img src="images/img4.jpg">
-<img src="images/img5.jpg">
-<img src="images/img6.jpg">
+<img src="./images/img5.jpg">
+<img src="./images/img6.jpg">
+<img src="./images/img7.jpg">
+<img src="./images/img8.jpg">
 
-<img src="images/img7.jpg">
-<img src="images/img8.jpg">
-<img src="images/img9.jpg">
+<img src="./images/img9.jpg">
 {{< /gallery >}}
