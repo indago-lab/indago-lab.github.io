@@ -8,6 +8,10 @@ end: 2026
 description: "Interreg Italy - Croatia"
 ---
 
+**Interreg Italy - Croatia project**
+
+<img src="beyond.jpeg" style="height: 150px; width:auto; margin:20px;">
+
 Project BEYOND aims to transform offshore wind power farms (OWFs) in the Adriatic into catalysts for sustainable development across various blue economy sectors, rather than just energy producers. With offshore wind resources in specific Adriatic hotspots, the project seeks to analyse and identify optimal micro locations for OWF installation to harness renewable energy potential and drive green transition in Italy and Croatia.
 
 Traditionally, OWFs are designed solely for electricity generation, with little consideration for their impact on marine ecosystems. BEYOND proposes a novel approach that integrates marine ecosystem preservation with the development of multiple blue economy sectors. By involving stakeholders from both countries in a quadruple helix model (involving government, academia, industry, and civil society), the project aims to develop OWF designs that prioritize ecosystem health alongside economic outputs.

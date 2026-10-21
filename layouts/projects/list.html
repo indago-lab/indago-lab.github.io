@@ -17,6 +17,12 @@
 
 
         {{- /* Projects list: `pinned: true` first, then by end year descending */ -}}
+        
+        {{- range sort .Pages ".Params.end" "desc" -}}
+            {{- .Render "project_item" -}}
+        {{ end }}
+        
+<!--    
         {{- $pinned := slice -}}
         {{- $others := slice -}}
         {{- range sort .Pages ".Params.end" "desc" -}}
@@ -33,6 +39,7 @@
         {{ range $others }}
             {{- .Render "project_item" -}}
         {{ end }}
+-->
 
     </div>
 {{- end -}}

@@ -8,7 +8,10 @@ end: 2029
 description: "Interreg Italy - Croatia"
 ---
 
-<img src="smart_guard_logo.png" alt="Interreg Italy - Croatia, Project SMART GUARD" style="width: 70%;">
+**Interreg Italy - Croatia project**
+
+<img src="smart_guard_logo.png" style="height: 150px; width:auto; margin:20px;">
+<!-- <img src="smart_guard_logo.png" alt="Interreg Italy - Croatia, Project SMART GUARD" style="width: 70%;"> -->
 
 [Official SMART GUARD project web page](http://)
 

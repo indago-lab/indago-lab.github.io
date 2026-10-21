@@ -10,8 +10,8 @@ description: "Weave bilateral research project (Croatian Science Foundation (HRZ
 
 **Weave bilateral research project (Croatian Science Foundation and Swiss National Science Foundation)**
 
-<img src="hrzz_logo_eng.png" style="height: 100px; width:auto; margin:20px;">
-<img src="SNF_logo.png" style="height: 100px; width:auto; margin:20px;">
+<img src="hrzz_logo_eng.png" style="height: 150px; width:auto; margin:20px;">
+<img src="SNF_logo.png" style="height: 150px; width:auto; margin:20px;">
 <!-- <div style="width:10px;"></div> -->
 
 

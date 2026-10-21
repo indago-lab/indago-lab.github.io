@@ -8,6 +8,10 @@ end: 2029
 description: "UNIRI research project"
 ---
 
+**UNIRI research project**
+
+<img src="logo_uniri_name.png" style="height: 70px; width:auto; margin:20px;">
+
 The development of new solvers for partial differential equations for the HEDAC method in ergodic control, as well as the application of the developed control, are the project's primary goals. Current implementations use direct solvers for linear systems in finite difference and finite element methods; however, existing approaches are not sufficiently efficient for 3D domains and the computational performance required for real-time control. As a solution, developing an iterative solver based on a uniform rectangular grid for 2D and 3D continua is proposed, along with applying techniques such as Adaptive Mesh Refinement and MultiGrid, which would significantly improve computational performance.
 
 The project also focuses on the development of techniques for accurate robot localization in unknown environments, including managing sensor uncertainties, such as LiDAR, and probabilistically correcting the robot's location and obstacles. The developed systems will use various mobile robots and sensor equipment to collect data, considering issues related to insufficient data quality and redundancy.

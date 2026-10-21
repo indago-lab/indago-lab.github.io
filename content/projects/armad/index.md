@@ -10,7 +10,7 @@ description: "Research project (Croatian Science Foundation (HRZZ)"
 
 **Croatian Science Foundation research project**
 
-<img src="hrzz_logo_eng.png" style="height: 100px; width:auto; margin:20px;">
+<img src="hrzz_logo_eng.png" style="height: 150px; width:auto; margin:20px;">
 
 Understanding sea surface flow is essential for tracking pollution, search-and-rescue operations, and climate modelling. Reconstruction of sea surface flow fields from sparse measurements obtained through the deployment of GPS-equipped buoys (drifters) is effective but limited by their uncontrolled motion. Drifters are naturally aggregated under the influence of currents, consequently leaving large areas sparsely sampled or unobserved, reducing the relevance of measurement information. To overcome these limitations, we propose active robotic drifters capable of maintaining and adjusting their position through onboard propulsion. These drifters operate in two modes: a passive mode for velocity measurements and an active mode for repositioning. Our work builds on a previously developed data-driven flow-fit model that reconstructs velocity fields directly from measurements collected by (passive) Lagrangian drifters.
 
