@@ -13,7 +13,7 @@ description: "Interreg Italy - Croatia"
 <img src="smart_guard_logo.png" style="height: 150px; width:auto; margin:20px;">
 <!-- <img src="smart_guard_logo.png" alt="Interreg Italy - Croatia, Project SMART GUARD" style="width: 70%;"> -->
 
-[Official SMART GUARD project web page](http://)
+[Official SMART GUARD project web page](https://italy-croatia.eu/web/smartguard)
 
 SMART GUARD addresses two interconnected territorial challenges compromising climate resilience
 across the Italy-Croatia cooperation area: insufficient climate monitoring systems and fragmented
