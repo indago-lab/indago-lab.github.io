@@ -3,8 +3,8 @@ draft: false
 title: "Development of computational tools for the subsea pipeline in-place FE analysis"
 featuredimage: "aventatools_front.png"
 toc: true
-start: 2026.04
-end: 2026.11
+start: 2026
+end: 2026
 description: "Research and software development project with Aventa Adriatic d.o.o."
 ---
 
