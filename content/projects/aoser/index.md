@@ -10,6 +10,8 @@ description: "Croatian Science Foundation installation research project"
 
 **Croatian Science Foundation installation research project**
 
+<img src="hrzz_logo_eng.png" style="height: 100px; width:auto; margin:20px;">
+
 2021 - 2026
 <br/><br/><br/><br/>
 {{< figure src="https://hrzz.hr/wp-content/uploads/2019/11/HRZZ-eng.jpg"  width="400">}}
