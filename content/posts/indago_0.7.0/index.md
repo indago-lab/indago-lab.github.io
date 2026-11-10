@@ -10,7 +10,7 @@ featuredImage: "indago_0.7.0.jpg"
 
 A long waited release of Indago has finally arrived! With a bunch of exciting novelties!
 
-We migrated Indago code to GitHub [https://github.com/indago-lab/indago]([https://github.com/indago-lab/indago) and made a significant overhaul to the code, while adding new useful features and optimization methods.
+We migrated Indago code to GitHub [https://github.com/indago-lab/indago](https://github.com/indago-lab/indago) and made a significant overhaul to the code, while adding new useful features and optimization methods.
 
 The PyPI installation ([https://pypi.org/project/Indago](https://pypi.org/project/Indago)) and the documentation ([https://indago.readthedocs.io/index.html](https://indago.readthedocs.io/index.html)) are updated. 
 
